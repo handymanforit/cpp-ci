@@ -34,3 +34,10 @@ jobs:
       - name: Run debug build
         run: |
           msbuild src/ise-cs-bayer-ci.sln /p:configuration=debug /t:rebuild /nodeReuse:false
+      
+      - name: Run tests with coverage
+        run: >
+          vstest.console.exe src\x64\Debug\cpp-unit-test.dll 
+          /EnableCodeCoverage 
+          /Collect:"Code Coverage;Format=Xml" 
+          /ResultsDirectory:"${{ env.COVERAGE_RESULTS }}"        
