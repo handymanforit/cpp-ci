@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+#vs
+*.user
+*.log
+*.idb
+src/ise-cs-bayer-ci/cpp-demo/Debug/
+src/ise-cs-bayer-ci/cpp-demo/Release/
+src/ise-cs-bayer-ci/cpp-demo/x86/
+src/ise-cs-bayer-ci/cpp-demo/x64/
+src/Debug
+src/Release
+src/x64
+src/x86
+
