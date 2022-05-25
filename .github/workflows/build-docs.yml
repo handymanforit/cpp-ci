@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
 
     - name: Doxygen Action
-      uses: mattnotmitt/doxygen-action@1.9.3
+      uses: mattnotmitt/doxygen-action@edge
       with:
           working-directory: .
           doxyfile-path: ./doc_source/Doxyfile
