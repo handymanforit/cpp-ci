@@ -36,6 +36,7 @@
 *.log
 *.idb
 *.filters
+src/ise-cs-bayer-ci/.vs
 src/ise-cs-bayer-ci/cpp-demo/Debug/
 src/ise-cs-bayer-ci/cpp-demo/Release/
 src/ise-cs-bayer-ci/cpp-demo/x86/
