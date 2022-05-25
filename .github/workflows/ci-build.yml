@@ -26,7 +26,7 @@ jobs:
           java-version: 11
       
       - name: Set up msbuild
-        uses: microsoft/setup-msbuild@v1.1.1
+        uses: microsoft/setup-msbuild@v1.1
       
       - name: Setup VSTest.console.exe # Needed to run tests and generate coverage
         uses: darenm/Setup-VSTest@v1
